@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    max-width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: lightgreen
+}
+
+header img {
+    display: block;
+    height: 100vh;
+}
+nav {
+    overflow: hidden;
+}
+nav a {
+    display: block;
+    float: left;
+    padding: 15px 20px;
+    background-color: aqua;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5px;
+    left: 50%;
+}
